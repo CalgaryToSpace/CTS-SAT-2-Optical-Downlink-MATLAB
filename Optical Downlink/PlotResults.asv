@@ -1,0 +1,18 @@
+SAMPLE_TIME = 0.5;
+
+durations = readtable("DurationsTable_1YR_Test.csv");
+
+% Convert to seconds
+durations(:,2) = durations(:,2) .* SAMPLE_TIME;
+
+% Get average duration
+meanDuration = sum(durations(1:currentIndex, 2));
+meanDuration = meanDuration{1,1} / currentIndex;
+
+rows = size(durations, 1);
+
+timeBetweenAccess = zeros(rows, 1);
+
+for i = 1:(rows - 1)
+    timeBetweenAccess = days(durations(i + 1, 1) - durations(i, 1))
+end
