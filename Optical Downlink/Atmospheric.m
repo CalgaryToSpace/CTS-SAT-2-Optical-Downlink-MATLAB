@@ -31,7 +31,7 @@ for i = 0:0.5:45
     
     % Set the link characteristics
     link = struct;
-    link.Wavelength = 825e-9;    % m
+    link.Wavelength = 850e-9;    % m
     link.TroposphereHeight = 11;  % km (Typically ranges from 6-20 km)
     link.ElevationAngle = 90 - i;     % degrees (assume directly above)
     link.Type = "downlink";       % "downlink"|"inter-satellite"|"uplink"
