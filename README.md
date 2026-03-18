@@ -13,3 +13,6 @@ _LinkBudget_
 _PlotResults_
 - Durations of access intervals for optical downlink
 - Time between access intervals 
+
+_GetAccess_
+- Compute the durations of access intervals and outputs to a file
