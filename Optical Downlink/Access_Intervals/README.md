@@ -4,7 +4,7 @@ The simulations also does not account for orbit decay.
 In GetAccess, the variable "initialTableSize" is how large the durations table will be initialized. 
 Aside from plotting results, PlotResults also computes the average duration and time between access. 
 The output file will have two columns; the date and time that the access interval starts and the duration in seconds.
-<br>
+<br> <br>
 <img width="1526" height="1048" alt="image" src="https://github.com/user-attachments/assets/77d750a6-ff16-48e9-b593-af9314aa1c94" />
 - The average duration over a year is 7.672 seconds.
 <br>
