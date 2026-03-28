@@ -6,7 +6,7 @@ _DotDiameter_Power_
 - Plots altitude vs output power at different input powers
 - Plots altitude vs Prx / Ptx
 
-_[LinkBudget](Optical_Downlink/LinkBudget.m)_ 
+_[LinkBudget](Optical Downlink/LinkBudgetInfo.md)_ 
 - Plots elevation angles vs link margin
 - Used code from [this MATLAB tutorial](https://www.mathworks.com/help/satcom/ug/optical_satellite_communication_link_budget_analysis.html#mw_rtc_OpticalLinkBudgetAnalysisExample_M_0FB6C070)
 
