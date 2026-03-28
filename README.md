@@ -14,5 +14,5 @@ _PlotResults_
 - Plots durations of access intervals for optical downlink
 - Plots time between access intervals 
 
-_[Access_Intervals](Optical%20Downlink/README.md)_
+_[Access_Intervals](Optical%20Downlink/Access_Intervals/README.md)_
 - Compute the durations of access intervals at specific dates and outputs to a file
