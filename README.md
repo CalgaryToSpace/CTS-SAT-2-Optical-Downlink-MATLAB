@@ -1,7 +1,7 @@
 # CTS-SAT-2-Optical-Downlink-MATLAB
 This repository contains MATLAB simulations related to the optical downlink payload. The scripts/folders are explained below:
 
-_DotDiameter_Power_
+_[DotDiameter_Power](DotDiameter_PowerGraphs.md)_
 - Plots altitude vs dot diameter
 - Plots altitude vs output power at different input powers
 - Plots altitude vs Prx / Ptx
@@ -14,5 +14,5 @@ _PlotResults_
 - Plots durations of access intervals for optical downlink
 - Plots time between access intervals 
 
-_[GetAccess](Optical%20Downlink/DotDiameter_PowerGraphs.md)_
+_[Access_Intervals](Optical%20Downlink/README.md)_
 - Compute the durations of access intervals at specific dates and outputs to a file
