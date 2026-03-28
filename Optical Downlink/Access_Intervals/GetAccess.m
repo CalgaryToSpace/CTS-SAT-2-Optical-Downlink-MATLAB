@@ -1,19 +1,13 @@
 clear
 close all
 
-% SOME ISSUES:
-% Calculating current true anomaly is not accurate!
-% Consider splitting the time interval into orbital periods so we know
-% true anomaly will be the same
-
-
 TOTAL_TIME_HR = 8760;
 ONE_ITERATION_HR = 10;    % Will be multiplied by the period of sat (n orbits)
 SAMPLE_TIME = 0.5;        % determines length of time intervals (seconds)
 OUTPUT_FILE = "DurationsTable_1YR_Test.csv";
 START_DATE = datetime(2025,3,24,0,0,0);     % Initial value
 
-initialTableSize = 30;      % can adjust to speed up program
+initialTableSize = 50;      % can adjust to speed up program
 
 % Initial orbital elements
 semiMajorAxis = 6950440;
