@@ -1,7 +1,7 @@
 # CTS-SAT-2-Optical-Downlink-MATLAB
 This repository contains MATLAB simulations related to the optical downlink payload. The scripts/folders are explained below:
 
-_[DotDiameter_Power](DotDiameter_PowerGraphs.md)_
+_[DotDiameter_Power](Optical%20Downlink/DotDiameter_PowerGraphs.md)_
 - Plots altitude vs dot diameter
 - Plots altitude vs output power at different input powers
 - Plots altitude vs Prx / Ptx
